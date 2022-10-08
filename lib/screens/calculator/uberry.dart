@@ -94,7 +94,7 @@ class Uberry extends StatelessWidget {
                     
                   ),
                   Text(
-                    '\n${passenger.toString()} ${((passenger > 1) ? '\n' : '\n')}',
+                    '\n${((passenger > 1) ? 'กลางคืน\n' : 'กลางวัน\n')}',
                     style: const TextStyle(
                       color: Colors.blue,
                       fontSize: 20,
